@@ -1,2 +1,5 @@
-﻿  main.cpp
-  Project_424.vcxproj -> C:\Users\megko\source\repos\Project_424\Project_424\x64\Debug\Project_424.exe
+﻿  aircraft.cpp
+C:\Users\megko\source\repos\Project_424\Project_424\aircraft.cpp(14,49): error C2065: 'name': undeclared identifier
+  main.cpp
+C:\Users\megko\source\repos\Project_424\Project_424\main.cpp(35,2): error C2064: term does not evaluate to a function taking 0 arguments
+  Generating Code...
