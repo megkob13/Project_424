@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aircraft.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="spacecraft.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aircraft.h" />
+    <ClInclude Include="spacecraft.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
