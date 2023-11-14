@@ -10,3 +10,4 @@ void AIAA_2();
 void Hike_2();
 void Study_2();
 void Out_2();
+void Quiz_Time_Space();
