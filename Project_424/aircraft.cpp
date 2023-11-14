@@ -10,9 +10,8 @@ using namespace std;
 class Quiz_AirCraft{
 public:
 
-    void Quiz_Time_Air()
+    void Quiz_Time_Air(float& grade_air)
     {
-        float grade_air;
         bool answer_2;
         cout << "You got a popquiz! Are you ready? " << endl;
         cout << "Is the thermal efficiency a ratio of the rate of addition of kinetic energy to the propellant to the total energy consumption rate?" << endl;
@@ -28,7 +27,7 @@ public:
         }
         else if (answer_2 == 0)
         {
-            grade_air = 75.0;
+            grade_air = 75.5;
             cout << "Oh no! You answered incorrectly..." << endl;
             cout << "Luckily a friend checked your work and caught your mistake!" << endl;
             cout << "You got a " << grade_air << " on your quiz!" << endl;
@@ -116,10 +115,12 @@ void AircraftRoute()
 };
 
 
-void Aerowomen_1()
+void Aerowomen_1(float&grade_air)
 {
     // add a quiz here
-    obj.Quiz_Time_Air();
+    obj.Quiz_Time_Air(grade_air);
+    
+    cout << "You got a " << grade_air << "% in the pop quiz!" << endl;
     
     int choice_hike;
     cout << endl;
