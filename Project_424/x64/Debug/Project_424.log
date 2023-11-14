@@ -1,4 +1,2 @@
-﻿aircraft.obj : error LNK2019: unresolved external symbol "void __cdecl Aerowomen_1(void)" (?Aerowomen_1@@YAXXZ) referenced in function "void __cdecl AircraftRoute(void)" (?AircraftRoute@@YAXXZ)
-    Hint on symbols that are defined and could potentially match:
-      "void __cdecl Aerowomen_1(float &)" (?Aerowomen_1@@YAXAEAM@Z)
-C:\Users\megko\source\repos\Project_424\Project_424\x64\Debug\Project_424.exe : fatal error LNK1120: 1 unresolved externals
+﻿  aircraft.cpp
+  Project_424.vcxproj -> C:\Users\megko\source\repos\Project_424\Project_424\x64\Debug\Project_424.exe

@@ -6,6 +6,9 @@
 
 using namespace std;
 
+//global variable
+float grade_air;
+
 //use class quiz to call the same quiz for different choices!
 class Quiz_AirCraft{
 public:
@@ -77,6 +80,13 @@ public:
 
 Quiz_AirCraft obj;
 
+void AircraftRoute();
+void Aerowomen_1(float& grade_air);
+void AIAA_1(float& grade_air);
+void Study_1();
+void Hike_1();
+void Out_1();
+
 void AircraftRoute()
 {
     int choice_club;
@@ -100,12 +110,12 @@ void AircraftRoute()
         case 1:
             cout << endl;
             cout << "Awesome! You joined Aerowomen." << endl;
-            Aerowomen_1();
+            Aerowomen_1(grade_air);
             break;
         case 2:
             cout << endl;
             cout << "Cool! You joined AIAA." << endl;
-            AIAA_1();
+            AIAA_1(grade_air);
             break;
         default:
             cout << endl;
@@ -156,14 +166,15 @@ void Aerowomen_1(float&grade_air)
     } while (choice_hike != 1 && choice_hike != 2);
 };
 
-void AIAA_1()
+void AIAA_1(float&grade_air)
 {
     int choice_goingout;
     cout << endl;
     cout << endl;
     
     // add a quiz here
-    //obj.Quiz_Time_Air();
+    obj.Quiz_Time_Air(grade_air);
+
     
     cout << "You need to study for AERSP 410, but your friends asked you to go out tonight." << endl;
     cout << "What do you do?" << endl;
@@ -203,7 +214,7 @@ void Study_1()
     int choice_career1;
     cout << endl;
     cout << endl;
-    cout << "You got an " << lettergrade << "in Dr. Halls class! Great job! " << endl;
+    cout << "You got an " << lettergrade << " in Dr. Halls class! Great job! " << endl;
     cout << "Would you like to go to graduate school or into industry?   " << endl;
     
     // allow user to pick what they are going to do with user input

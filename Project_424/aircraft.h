@@ -5,8 +5,8 @@
 
 //function declarations
 void AircraftRoute();
-void Aerowomen_1();
-void AIAA_1();
+void Aerowomen_1(float& grade_air);
+void AIAA_1(float& grade_air);
 void Hike_1();
 void Study_1();
 void Out_1();
