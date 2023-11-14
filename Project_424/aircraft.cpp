@@ -163,7 +163,7 @@ void AIAA_1()
     cout << endl;
     
     // add a quiz here
-    obj.Quiz_Time_Air();
+    //obj.Quiz_Time_Air();
     
     cout << "You need to study for AERSP 410, but your friends asked you to go out tonight." << endl;
     cout << "What do you do?" << endl;
